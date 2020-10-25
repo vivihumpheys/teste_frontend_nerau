@@ -126,7 +126,32 @@ li {
   padding-left: 160px;
   padding-top: 100px;
 }
-/* 
-.main-banner--buttons{
- 
-} */
+
+.main-banner--buttons {
+  width: 450px;
+  text-align: left;
+  padding-left: 140px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-banner--buttons_paraCachorro,
+.main-banner--buttons_paraGato {
+  text-decoration: none;
+  border: solid white 1px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 175px;
+  text-align: center;
+}
+
+.main-banner--buttons_paraCachorro {
+  color: black;
+  background-color: white;
+}
+
+.main-banner--buttons_paraGato {
+  color: white;
+}
