@@ -170,27 +170,33 @@ li {
 
 .img-peitorais {
   grid-area: img-peitorais;
-  padding: 15px;
+  max-width: 100%;
+  padding-right: 15px;
 }
 
 .img-roupinhas {
   grid-area: img-roupinhas;
-  padding: 15px;
+  max-width: 100%;
+  padding-left: 15px;
 }
 
 .img-coleiras {
   grid-area: img-coleiras;
-  padding: 15px;
+  max-width: 100%;
+  padding-top: 38px;
+  padding-left: 15px;
 }
 
 .img-guias {
   grid-area: img-guias;
-  padding: 15px;
+  max-width: 100%;
+  padding-top: 38px;
+  padding-left: 18px;
 }
 
 .main-produtos--grid_template_area_1 {
   max-width: 100%;
-  padding: 15px;
+  padding: 25px;
   grid-template-columns: 50% 25% 25%;
   grid-template-rows: 200px 200px 200px;
   grid-template-areas:
