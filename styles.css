@@ -156,6 +156,44 @@ li {
   color: white;
 }
 
-.main-banner--buttons_paraCachorro:hover, .main-banner--buttons_paraGato:hover{
+.main-banner--buttons_paraCachorro:hover,
+.main-banner--buttons_paraGato:hover {
   opacity: 0.7;
+}
+.grid {
+  display: grid;
+}
+
+.item {
+  display: grid;
+}
+
+.img-peitorais {
+  grid-area: img-peitorais;
+  padding: 15px;
+}
+
+.img-roupinhas {
+  grid-area: img-roupinhas;
+  padding: 15px;
+}
+
+.img-coleiras {
+  grid-area: img-coleiras;
+  padding: 15px;
+}
+
+.img-guias {
+  grid-area: img-guias;
+  padding: 15px;
+}
+
+.main-produtos--grid_template_area_1 {
+  max-width: 100%;
+  padding: 15px;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-areas:
+    "img-peitorais img-roupinhas img-roupinhas"
+    "img-peitorais img-coleiras img-guias";
 }
