@@ -203,3 +203,15 @@ li {
     "img-peitorais img-roupinhas img-roupinhas"
     "img-peitorais img-coleiras img-guias";
 }
+
+.main-produtos--template_area_2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: -130px;
+}
+
+.main-produtos--template_area_2-item {
+  padding: 10px;
+  width: 17%;
+}
